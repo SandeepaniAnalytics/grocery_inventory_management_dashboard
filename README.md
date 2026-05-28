@@ -239,6 +239,3 @@ Full SKU-level detail for warehouse managers and analysts.
 
 **Sandeepani Rathnayake** <br>
 *Power BI & Data Analytics Enthusiast*
-
-- GitHub: [@yourusername](github.com/SandeepaniAnalytics)
-- LinkedIn: [Sandeepani Rathnayake](https://linkedin.com/in/sandeepani-rathnayake)
