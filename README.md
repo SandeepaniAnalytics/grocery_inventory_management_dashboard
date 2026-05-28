@@ -89,7 +89,7 @@ High-level financial and operational snapshot for managers and directors.
 ### Page 2 - Risk Monitoring
 Identify and act on inventory risks before they become stockouts or losses.
 <br>
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page2_risk_monitoring.png)
 
 
 ---
