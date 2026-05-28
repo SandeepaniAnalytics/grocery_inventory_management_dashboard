@@ -81,21 +81,28 @@ The purpose of this dashboard is to help business users and decision-makers:
 
 ### Page 1 - Executive Overview
 High-level financial and operational snapshot for managers and directors.
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
 
 ---
 
 ### Page 2 - Risk Monitoring
 Identify and act on inventory risks before they become stockouts or losses.
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+
 
 ---
 
 ### Page 3 - Supplier & Inventory Quality
 Track supplier performance, inventory accuracy and forecast reliability.
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+
 
 ---
 
 ### Page 4 - Inventory Overview Table
 Full SKU-level detail for warehouse managers and analysts.
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+
 
 ---
 
