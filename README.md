@@ -97,7 +97,7 @@ Identify and act on inventory risks before they become stockouts or losses.
 ### Page 3 - Supplier & Inventory Quality
 Track supplier performance, inventory accuracy and forecast reliability.
 <br>
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page3_supplier_inventory_quality.png)
 
 
 ---
