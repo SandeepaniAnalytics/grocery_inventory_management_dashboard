@@ -128,7 +128,7 @@ Identify and act on inventory risks before they become stockouts or losses.
 ### Business Insights
 - **Fresh Produce (81), Meat (70) and Dairy (67)** are the top 3 categories with expiring SKUs - all perishables needing urgent action
 - **75.8%** of SKUs will run out within 14 days at current sales rates
-- Only **157 SKUs** have fresh stock aged 0–30 days - majority of stock is aging
+- Only **157 SKUs** have fresh stock aged 0-30 days - majority of stock is aging
 - **52.35%** of SKUs are older than 90 days - significant dead stock accumulation
 - True available stock is only **61.5%** of total QoH after subtracting reserved, committed and safety stock
 
@@ -157,7 +157,7 @@ Track supplier performance, inventory accuracy and forecast reliability.
 ### Business Insights
 - All 10 suppliers score between **84.1–85.7%** on-time delivery - Moderate
 - **Beverages is underforecast** - actual demand exceeds predicted, causing stockouts in the highest value category
-- **Pantry has the most damaged units (164)** — PT Indo Fresh supplier and Medan warehouse identified as root cause via decomposition tree
+- **Pantry has the most damaged units (164)** - PT Indo Fresh supplier and Medan warehouse identified as root cause via decomposition tree
 - Forecast accuracy of **79%** means 1 in 5 SKUs is over or under predicted 
 
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page3_supplier_inventory_quality.png)
@@ -174,19 +174,19 @@ Full SKU-level detail for warehouse managers and analysts.
 
 ## 💡 Key Business Insights
 
-📦 **32.9%** of SKUs are expiring soon — holding **$337K** worth of stock at risk of becoming unsellable waste
+📦 **32.9%** of SKUs are expiring soon - holding **$337K** worth of stock at risk of becoming unsellable waste
 
-🔴 **75.8%** of SKUs will run out within 14 days at current sales rates — immediate reorder action required
+🔴 **75.8%** of SKUs will run out within 14 days at current sales rates - immediate reorder action required
 
 💰 Only **61.5%** of total stock is truly available for new orders after accounting for reserved and committed quantities
 
-🥤 **Beverages** is the most critical category — highest inventory value (21.8%), most expiring SKUs, and most underforecast category
+🥤 **Beverages** is the most critical category - highest inventory value (21.8%), most expiring SKUs, and most underforecast category
 
-🚚 Supplier on-time delivery at **84.7%** is below the industry benchmark of 95% — 15% of orders arriving late directly increases stockout risk
+🚚 Supplier on-time delivery at **84.7%** is below the industry benchmark of 95% - 15% of orders arriving late directly increases stockout risk
 
-📊 Inventory accuracy of **25.1%** (zero variance SKUs) is far below the industry standard of 99% — data quality is a major operational risk
+📊 Inventory accuracy of **25.1%** (zero variance SKUs) is far below the industry standard of 99% - data quality is a major operational risk
 
-🏭 **Pantry category** has the most damaged units (164) — PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
+🏭 **Pantry category** has the most damaged units (164) - PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
 
 📈 Average stock age of **91.5 days** with 179 SKUs over 150 days indicates significant dead stock problem
 
