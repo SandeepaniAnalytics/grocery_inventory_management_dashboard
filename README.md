@@ -1,5 +1,5 @@
 # 🛒 Grocery Inventory Management Dashboard
-### Power BI Dashboard | E-Grocery Inventory Analytics | Indonesia
+### Power BI Dashboard | Grocery Inventory Analytics
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
@@ -81,14 +81,57 @@ The purpose of this dashboard is to help business users and decision-makers:
 
 ### Page 1 - Executive Overview
 High-level financial and operational snapshot for managers and directors.
-<br>
+
+### KPI Cards
+- Total Inventory Value 
+- Total Quantity On Hand
+- Low Stock SKUs 
+- Expiry Risk Rate
+
+### Visuals
+| Visual | Type |
+|---|---|
+| Total Inventory Trend by Month | Area chart |
+| Total Inventory Value by Category | Bar chart |
+| Total SKUs by ABC Class | Donut chart |
+| Total SKUs by Inventory Status | Donut chart |
+
+### Business Insights
+- Beverages holds the highest inventory value at **$274.5K** of total stock
+- **32.9%** of SKUs are expiring soon - holding $337.3K at risk of becoming waste
+- Class A SKUs represent only **20% of products** but hold **$674.2K of total value**
+- **57.2%** of SKUs are not in a healthy stock state - Low Stock, Expiring Soon or Out of Stock
+- Inventory value peaked in **May 2025** then dropped sharply by September - signals restocking or demand issues
+
+  
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page1_executive_overview.png)
 
 ---
 
 ### Page 2 - Risk Monitoring
 Identify and act on inventory risks before they become stockouts or losses.
-<br>
+
+### KPI Cards
+- Expiring Soon SKUs 
+- Stockout Risk SKUs
+- Aged Stock SKUs 
+- Damaged Loss Value
+
+### Visuals
+| Visual | Type |
+|---|---|
+| Expiring Soon SKUs by Category | Bar chart |
+| Inventory Levels by Category | Line chart |
+| SKUs by Stock Age Band | Column chart |
+| Top 20 SKUs Closest to Stockout | Table |
+
+### Business Insights
+- **Fresh Produce (81), Meat (70) and Dairy (67)** are the top 3 categories with expiring SKUs - all perishables needing urgent action
+- **75.8%** of SKUs will run out within 14 days at current sales rates
+- Only **157 SKUs** have fresh stock aged 0–30 days - majority of stock is aging
+- **52.35%** of SKUs are older than 90 days - significant dead stock accumulation
+- True available stock is only **61.5%** of total QoH after subtracting reserved, committed and safety stock
+
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page2_risk_monitoring.png)
 
 
@@ -96,52 +139,56 @@ Identify and act on inventory risks before they become stockouts or losses.
 
 ### Page 3 - Supplier & Inventory Quality
 Track supplier performance, inventory accuracy and forecast reliability.
-<br>
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page3_supplier_inventory_quality.png)
 
+### KPI Cards
+- Supplier On-Time %
+- Inventory Accuracy % 
+- Forecast Accuracy % 
+- Damaged Rate % 
+
+### Visuals
+| Visual | Type |
+|---|---|
+| Supplier On-Time % by Supplier | Bar chart |
+| Actual vs Forecast Demand by Category | Line chart |
+| Inventory Accuracy by Category | Stacked bar chart |
+| Damaged Qty Root Cause Analysis | Decomposition tree |
+
+### Business Insights
+- All 10 suppliers score between **84.1–85.7%** on-time delivery - Moderate
+- **Beverages is underforecast** - actual demand exceeds predicted, causing stockouts in the highest value category
+- **Pantry has the most damaged units (164)** — PT Indo Fresh supplier and Medan warehouse identified as root cause via decomposition tree
+- Forecast accuracy of **79%** means 1 in 5 SKUs is over or under predicted 
+
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page3_supplier_inventory_quality.png)
 
 ---
 
 ### Page 4 - Inventory Overview Table
 Full SKU-level detail for warehouse managers and analysts.
 <br>
-![Dashboard Overview](https://github.com/SandeepaniAnalytics/ecommerce-sales-customer-behavior-dashboard/blob/main/dashboard-preview.png)
+![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page4_inventory_overview.png)
 
-
----
-
-## 🎨 Conditional Formatting Rules
-
-| KPI | 🟢 Green | 🟡 Orange | 🔴 Red |
-|---|---|---|---|
-| Supplier On-Time % | ≥ 90% | 80–90% | < 80% |
-| Inventory Accuracy % | ≥ 90% | 75–90% | < 75% |
-| Forecast Accuracy % | ≥ 90% | 75–90% | < 75% |
-| Damaged Rate % | = 0% | 0–1% | > 1% |
-| Low Stock SKUs | = 0 | 1–100 | > 100 |
-| Expiry Risk Rate | < 15% | 15–30% | > 30% |
-| Aged Stock SKUs | = 0 | 1–50 | > 50 |
-| Days of Inventory | ≥ 15 days | 8–14 days | ≤ 7 days |
 
 ---
 
 ## 💡 Key Business Insights
 
-> 📦 **32.9%** of SKUs are expiring soon — holding **$337K** worth of stock at risk of becoming unsellable waste
+📦 **32.9%** of SKUs are expiring soon — holding **$337K** worth of stock at risk of becoming unsellable waste
 
-> 🔴 **75.8%** of SKUs will run out within 14 days at current sales rates — immediate reorder action required
+🔴 **75.8%** of SKUs will run out within 14 days at current sales rates — immediate reorder action required
 
-> 💰 Only **61.5%** of total stock is truly available for new orders after accounting for reserved and committed quantities
+💰 Only **61.5%** of total stock is truly available for new orders after accounting for reserved and committed quantities
 
-> 🥤 **Beverages** is the most critical category — highest inventory value (21.8%), most expiring SKUs, and most underforecast category
+🥤 **Beverages** is the most critical category — highest inventory value (21.8%), most expiring SKUs, and most underforecast category
 
-> 🚚 Supplier on-time delivery at **84.7%** is below the industry benchmark of 95% — 15% of orders arriving late directly increases stockout risk
+🚚 Supplier on-time delivery at **84.7%** is below the industry benchmark of 95% — 15% of orders arriving late directly increases stockout risk
 
-> 📊 Inventory accuracy of **25.1%** (zero variance SKUs) is far below the industry standard of 99% — data quality is a major operational risk
+📊 Inventory accuracy of **25.1%** (zero variance SKUs) is far below the industry standard of 99% — data quality is a major operational risk
 
-> 🏭 **Pantry category** has the most damaged units (164) — PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
+🏭 **Pantry category** has the most damaged units (164) — PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
 
-> 📈 Average stock age of **91.5 days** with 179 SKUs over 150 days indicates significant dead stock problem
+📈 Average stock age of **91.5 days** with 179 SKUs over 150 days indicates significant dead stock problem
 
 ---
 
@@ -185,8 +232,6 @@ Full SKU-level detail for warehouse managers and analysts.
 | **Conditional Formatting** | Dynamic colour coding based on business thresholds |
 | **Decomposition Tree** | AI-powered root cause analysis visual |
 | **Slicer Sync** | Cross-page filter synchronisation |
-| **Analytical Storytelling** | 3-page narrative from overview → risk → root cause |
-| **Inventory Domain Knowledge** | Real-world KPIs: OTIF, IRA, shrinkage, FIFO/FEFO |
 
 ---
 
@@ -195,5 +240,5 @@ Full SKU-level detail for warehouse managers and analysts.
 **Sandeepani Rathnayake** <br>
 *Power BI & Data Analytics Enthusiast*
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Sandeepani Rathnayake](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername](github.com/SandeepaniAnalytics)
+- LinkedIn: [Sandeepani Rathnayake](https://linkedin.com/in/sandeepani-rathnayake)
