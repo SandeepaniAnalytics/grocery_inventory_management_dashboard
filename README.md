@@ -125,13 +125,6 @@ Identify and act on inventory risks before they become stockouts or losses.
 | SKUs by Stock Age Band | Column chart |
 | Top 20 SKUs Closest to Stockout | Table |
 
-### Business Insights
-- **Fresh Produce (81), Meat (70) and Dairy (67)** are the top 3 categories with expiring SKUs - all perishables needing urgent action
-- **75.8%** of SKUs will run out within 14 days at current sales rates
-- Only **157 SKUs** have fresh stock aged 0-30 days - majority of stock is aging
-- **52.35%** of SKUs are older than 90 days - significant dead stock accumulation
-- True available stock is only **61.5%** of total QoH after subtracting reserved, committed and safety stock
-
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page2_risk_monitoring.png)
 
 
@@ -153,12 +146,6 @@ Track supplier performance, inventory accuracy and forecast reliability.
 | Actual vs Forecast Demand by Category | Line chart |
 | Inventory Accuracy by Category | Stacked bar chart |
 | Damaged Qty Root Cause Analysis | Decomposition tree |
-
-### Business Insights
-- All 10 suppliers score between **84.1–85.7%** on-time delivery - Moderate
-- **Beverages is underforecast** - actual demand exceeds predicted, causing stockouts in the highest value category
-- **Pantry has the most damaged units (164)** - PT Indo Fresh supplier and Medan warehouse identified as root cause via decomposition tree
-- Forecast accuracy of **79%** means 1 in 5 SKUs is over or under predicted 
 
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page3_supplier_inventory_quality.png)
 
