@@ -206,7 +206,6 @@ Full SKU-level detail for warehouse managers and analysts.
 | **Business Intelligence** | Translating raw inventory data into actionable business insights |
 | **Dashboard Design** | 4-page structured layout with consistent dark theme |
 | **DAX Calculations** | 30+ custom measures including KPIs and colour logic |
-| **Data Modeling** | Star schema with fact and dimension tables |
 | **Power Query** | Data cleaning, type fixing and locale handling |
 | **Conditional Formatting** | Dynamic colour coding based on business thresholds |
 | **Decomposition Tree** | AI-powered root cause analysis visual |
