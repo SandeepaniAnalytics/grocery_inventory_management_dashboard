@@ -19,13 +19,13 @@ The original dataset contained 1,000 SKUs, after data cleaning and removing null
 
 The purpose of this dashboard is to help business users and decision-makers:
 
-- 💰 Monitor inventory value and financial health
-- ⚠️ Identify and act on stockout and expiry risks before they occur
-- 🚚 Track supplier delivery performance and reliability
-- 📦 Measure inventory accuracy and warehouse data quality
-- 📈 Analyse forecast accuracy and demand planning effectiveness
-- 🔍 Drill down to SKU-level detail for operational decisions
-- 🏭 Compare performance across warehouses and product categories
+-  Monitor inventory value and financial health
+-  Identify and act on stockout and expiry risks before they occur
+-  Track supplier delivery performance and reliability
+-  Measure inventory accuracy and warehouse data quality
+-  Analyse forecast accuracy and demand planning effectiveness
+-  Drill down to SKU-level detail for operational decisions
+-  Compare performance across warehouses and product categories
 
 ---
 
@@ -95,14 +95,6 @@ High-level financial and operational snapshot for managers and directors.
 | Total Inventory Value by Category | Bar chart |
 | Total SKUs by ABC Class | Donut chart |
 | Total SKUs by Inventory Status | Donut chart |
-
-### Business Insights
-- Beverages holds the highest inventory value at **$274.5K** of total stock
-- **32.9%** of SKUs are expiring soon - holding $337.3K at risk of becoming waste
-- Class A SKUs represent only **20% of products** but hold **$674.2K of total value**
-- **57.2%** of SKUs are not in a healthy stock state - Low Stock, Expiring Soon or Out of Stock
-- Inventory value peaked in **May 2025** then dropped sharply by September - signals restocking or demand issues
-
   
 ![Dashboard Overview](https://github.com/SandeepaniAnalytics/grocery_inventory_management_dashboard/blob/main/screenshots/page1_executive_overview.png)
 
