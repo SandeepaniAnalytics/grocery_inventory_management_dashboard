@@ -161,21 +161,21 @@ Full SKU-level detail for warehouse managers and analysts.
 
 ## 💡 Key Business Insights
 
-📦 **32.9%** of SKUs are expiring soon - holding **$337K** worth of stock at risk of becoming unsellable waste
+- 32.9% of SKUs are expiring soon - holding $337K worth of stock at risk of becoming unsellable waste
 
-🔴 **75.8%** of SKUs will run out within 14 days at current sales rates - immediate reorder action required
+- 75.8% of SKUs will run out within 14 days at current sales rates - immediate reorder action required
 
-💰 Only **61.5%** of total stock is truly available for new orders after accounting for reserved and committed quantities
+- Only 61.5% of total stock is truly available for new orders after accounting for reserved and committed quantities
 
-🥤 **Beverages** is the most critical category - highest inventory value (21.8%), most expiring SKUs, and most underforecast category
+- Beverages is the most critical category - highest inventory value (21.8%), most expiring SKUs, and most underforecast category
 
-🚚 Supplier on-time delivery at **84.7%** is below the industry benchmark of 95% - 15% of orders arriving late directly increases stockout risk
+- Supplier on-time delivery at 84.7% is below the industry benchmark of 95% - 15% of orders arriving late directly increases stockout risk
 
-📊 Inventory accuracy of **25.1%** (zero variance SKUs) is far below the industry standard of 99% - data quality is a major operational risk
+- Inventory accuracy of 25.1% (zero variance SKUs) is far below the industry standard of 99% - data quality is a major operational risk
 
-🏭 **Pantry category** has the most damaged units (164) - PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
+- Pantry category has the most damaged units (164) - PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
 
-📈 Average stock age of **91.5 days** with 179 SKUs over 150 days indicates significant dead stock problem
+- Average stock age of 91.5 days with 179 SKUs over 150 days indicates significant dead stock problem
 
 ---
 
