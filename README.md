@@ -153,7 +153,7 @@ Full SKU-level detail for warehouse managers and analysts.
 
 ## 💡 Key Business Insights
 
-- 32.9% of SKUs are expiring soon - holding $337K worth of stock at risk of becoming unsellable waste
+- 32.9% of SKUs are expiring soon, holding $337K worth of stock at risk of becoming unsellable waste
 
 - 75.8% of SKUs will run out within 14 days at current sales rates - immediate reorder action required
 
