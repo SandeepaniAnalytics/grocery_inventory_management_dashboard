@@ -153,21 +153,19 @@ Full SKU-level detail for warehouse managers and analysts.
 
 ## 💡 Key Business Insights
 
-- 32.9% of SKUs are expiring soon, holding $337K worth of stock at risk of becoming unsellable waste
-
-- 75.8% of SKUs will run out within 14 days at current sales rates - immediate reorder action required
-
-- Only 61.5% of total stock is truly available for new orders after accounting for reserved and committed quantities
-
-- Beverages is the most critical category - highest inventory value (21.8%), most expiring SKUs, and most underforecast category
-
-- Supplier on-time delivery at 84.7% is below the industry benchmark of 95% - 15% of orders arriving late directly increases stockout risk
-
-- Inventory accuracy of 25.1% (zero variance SKUs) is far below the industry standard of 99% - data quality is a major operational risk
-
-- Pantry category has the most damaged units (164) - PT Indo Fresh and Medan warehouse are the root cause identified via decomposition tree
-
-- Average stock age of 91.5 days with 179 SKUs over 150 days indicates significant dead stock problem
+- Total inventory value stands at $1,259.5K across 999 products, beverages leads all categories with $0.27M.
+  
+- Only 56.2% of SKUs are in stock, 32.9% are expiring soon and inventory value peaked in May 2025 then dropped sharply through September
+  
+- Fresh Produce (81), Meat (70) and Dairy (67) are the most at risk expiring categories, 344 SKUs have been sitting 91–150 days showing a significant aging inventory problem
+  
+- SKU0700 (Beverages) has only 1 unit on hand against a reorder point of 171, quantity on hand consistently drops below reorder point across most categories
+  
+- All 10 suppliers score between 84.1–85.7% on-time delivery, Beverages is underforecast causing stockouts while Seafood and Frozen are overforecast leading to aged stock
+  
+- Pantry has the most damaged units (164), decomposition tree traces root cause to PT Indo Fresh supplier at Medan warehouse
+  
+- Every category shows a mix of accurate, extra stock and missing stock, no category has fully clean inventory records
 
 ---
 
